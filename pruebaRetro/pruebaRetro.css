@@ -1,0 +1,115 @@
+/* Global styles */
+
+.products {
+    display: grid;
+    column-gap: 20;
+    row-gap: 20;
+    background-color: white;
+    padding: 10;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "grid-item1 grid-item2 grid-item3"
+    "grid-item4 grid-item5 grid-item6";
+    font-family: 'Common Pixel', sans-serif;                                              
+}
+.grid-item1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.grid-item2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.grid-item3{
+    grid-column-start: 3;
+    grid-row-start: 1; 
+}
+
+.grid-item4{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.grid-item5{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.grid-item6{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+
+h3 {
+  color: black;
+}
+
+header {
+    background-color: #7C7C7C;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: 'Common Pixel', sans-serif;
+                                                
+  }
+
+p {
+    color: #222222;
+  }
+
+footer{
+    background-color: #7C7C7C;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-family: 'Common Pixel', sans-serif;
+    font-size: 28px;
+}
+
+button {
+    font-family: 'Common Pixel', monospace ;
+	font-size: 24px;
+    background: #7C7C7C;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.2rem;
+	margin: 1rem;
+	min-width: 200px;
+	padding: .5rem;
+	text-transform: uppercase;
+	width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    position: relative;
+
+}
+
+#demo {
+    font-family: 'Common Pixel', monospace;
+}
+
+svg{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+
+}
+  
+  
+  
